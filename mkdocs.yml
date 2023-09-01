@@ -1,0 +1,81 @@
+site_name: Motion Matching
+repo_name: JLPM22/MotionMatching
+repo_url: https://github.com/JLPM22/MotionMatching
+theme:
+  icon:
+    repo: fontawesome/brands/github
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/logo_dark.svg
+  palette:
+    - media: "(prefers-color-scheme)"
+      primary: red
+      accent: indigo
+      toggle:
+        icon: material/brightness-auto
+        name: Switch light/dark mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red
+      accent: indigo
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.top
+    - content.code.copy
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - git-committers:
+      repository: JLPM22/MotionMatching-docs
+      branch: main
+  - search
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+nav:
+  - Home: index.md
+  - Quick Start: quick_start.md
+  - Basics:
+    - Creating an Animation Database (MMData): basics/animation_database.md
+    - Animating a Character: basics/character.md
+    - Character Controller: basics/character_controller.md
+  - Functionality:
+    - Unity Animator Integration: functionality/unity_animator.md
+    - Tags: functionality/tags.md
+    - Custom Trajectory Features: functionality/custom_features.md
+  - Samples:
+    - Third Person: samples/third_person.md
+    - Path: samples/path.md
+    - Unity Animation Blending: samples/unity_animation.md
+    - Tags: samples/tags.md
+  - Reference:
+    - Under Construction: reference/todo.md
+  - Roadmap: roadmap.md
