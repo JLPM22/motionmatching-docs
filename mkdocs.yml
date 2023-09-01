@@ -35,9 +35,7 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
-  - git-committers:
-      repository: JLPM22/MotionMatching-docs
-      branch: main
+  - git-authors
   - search
 markdown_extensions:
   - md_in_html
