@@ -8,12 +8,6 @@ theme:
   logo: assets/logo.svg
   favicon: assets/logo_dark.svg
   palette:
-    - media: "(prefers-color-scheme)"
-      primary: red
-      accent: indigo
-      toggle:
-        icon: material/brightness-auto
-        name: Switch light/dark mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: red
