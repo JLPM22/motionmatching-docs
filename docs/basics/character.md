@@ -23,7 +23,7 @@ Animating a character using Motion Matching involves coordinating between the Ch
 
 ### Add Avatar and Renderer
 
-- Insert an avatar into the scene. As a reference, you can use ``Graphics/Models/Joe/Joe.prefab``, which should be imported as a humanoid. Attach a ``MotionMatchingSkinnedMeshRenderer`` component to the avatar, reference the ``MotionMatchingController`` from step 3, and specify the local forward and up vectors for the root joint of the avatar. This is similar to the process outlined in the *MMData* creation [section](animation_database.md).
+- Insert an avatar into the scene. As a reference, you can use ``Graphics/Models/Joe/Joe.prefab``, which should be imported as a humanoid. Attach a ``MotionMatchingSkinnedMeshRenderer`` component to the avatar and reference the ``MotionMatchingController`` from step 3.
 
 ### Test Animation
 
