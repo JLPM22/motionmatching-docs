@@ -9,7 +9,7 @@ It is also possible to drive Motion Matching using splines. This method allows y
 
 1. Add the `SplineCharacterController` script to a GameObject.
 2. Create a spline using the `Spline` component. Visit the [Spline documentation](https://docs.unity3d.com/Packages/com.unity.splines@2.7) for more information.
-!!! tip
+!!! tip inline end
 	Splines can be modified at runtime to create dynamic paths for your characters to follow.
 3. Assign the spline to the `SplineCharacterController` script.
 4. Assign a `MotionMatchingController` to the `SplineCharacterController` script.
