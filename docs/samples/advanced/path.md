@@ -3,7 +3,7 @@
 !!! info
 	To access this sample, go to the Package Manager, select the **Motion Matching** package, and then navigate to **Samples > Examples** to click on **Import**.
 
-You can find this sample located at `Examples/Scenes/JLTest/JLScenePathTest.unity`.
+You can find this sample located at `Examples/Scenes/01_Advanced/ExamplePathTest.unity`.
 
 This sample differs from the [third person character controller](third_person.md) in that it incorporates three GameObjects—`Test1`, `Test2`, and `Test3`—each containing all the required components to make a character follow a predefined path.
 

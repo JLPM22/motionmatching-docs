@@ -27,12 +27,13 @@ Animation databases hold the animation sets that the Motion Matching system util
 
 ### Configure Skeleton
 
-- Identify the local vectors pointing forward and upward for the hips/root joint. For example, in the following image, the forward local vector is the Z-axis (0, 0, 1) and the up local vector is Y-axis (0, 1, 0):
+- Identify the world space coordinates of the hips/root joint local forward and up vectors of your *.bvh* skeleton. You can use the `Auto-Set Hips vectors` button to automatically set these vectors based on the orientation of the character. First, click this button, then you will be redirected to a scene with the skeleton in your T-Pose *.bvh* file. You can then rotate the character so its forward and up vectors align with the world space axes. Once you are satisfied with the orientation, click the `Set Hips Local Vectors` button to save the orientation
+For example, in the following image, the character has been rotated to face the forward world axis. The final forward hips local vector is (0, 0, -1) and the up local vector is (0, 1, 0):
 
 	![](../assets/media/local_forward_hips.PNG)
 	
 	!!! note
-		Ensure your *Gizmo handle position toggle* is set to local space. [More Info](https://docs.unity3d.com/Manual/PositioningGameObjects.html).
+		You can click `Set Hips Local Vectors` to automatically save the local vectors. However, if you want to check it manually, ensure your *Gizmo handle position toggle* is set to local space. [More Info](https://docs.unity3d.com/Manual/PositioningGameObjects.html).
 
 		The forward vector should correspond to the *.bvh* file, not your virtual character.
 

@@ -11,11 +11,11 @@ Animating a character using Motion Matching involves coordinating between the Ch
 - First, generate an animation database (*MMData*) by following the [previous section](animation_database.md) on creating *MMData*.
 
 	!!! tip
-		You can use the demo scene at ``Scenes/JLTest/JLSceneTest.unity`` as a template.
+		You can use the demo scene at ``Scenes/00_Basic/ExampleSimpleMMController.unity`` as a template.
 
 ### Add Character Controller
 
-- Create an empty GameObject and attach a Character Controller component to it. The available options are currently ``SpringCharacterController`` or ``PathCharacterController``. Make sure to reference the ``MotionMatchingController`` (to be created in step 3) in the Motion Matching field. Keep the feature names unchanged unless you've also modified them in your custom *MMData*.
+- Create an empty GameObject and attach a Character Controller component to it. Make sure to reference the ``MotionMatchingController`` (to be created in step 3) in the Motion Matching field. Keep the feature names unchanged unless you've also modified them in your custom *MMData*.
 
 ### Add Motion Matching Controller
 
@@ -23,7 +23,7 @@ Animating a character using Motion Matching involves coordinating between the Ch
 
 ### Add Avatar and Renderer
 
-- Insert an avatar into the scene. As a reference, you can use ``Graphics/Models/Joe/Joe.prefab``, which should be imported as a humanoid. Attach a ``MotionMatchingSkinnedMeshRenderer`` component to the avatar and reference the ``MotionMatchingController`` from step 3.
+- Insert an avatar into the scene. As a reference, you can use ``Assets/Models/Joe/Joe.prefab``, which should be imported as a humanoid. Attach a ``MotionMatchingSkinnedMeshRenderer`` component to the avatar and reference the ``MotionMatchingController`` from step 3.
 
 ### Test Animation
 

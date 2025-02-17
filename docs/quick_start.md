@@ -4,7 +4,7 @@ Follow these steps to get started with the Motion Matching package for Unity.
 
 ## Installation Steps
 
-1. Ensure you have **Unity 2021.2+** installed (untested on other versions).
+1. Ensure you have **Unity 6+** installed (untested on other versions).
 
 2. Open the Unity Editor and navigate to **Window > Package Manager**.
 
@@ -20,7 +20,7 @@ Follow these steps to get started with the Motion Matching package for Unity.
 
 5. *[Optional]* In the Package Manager, click on **Motion Matching**, then import the example scenes by selecting **Samples > Examples > Import**.
 
-6. *[Optional]* Go to ``Examples/Scenes/JLTest`` in the Project Window to explore the sample scenes.
+6. *[Optional]* Go to ``Samples/Motion Matching/[version]/Examples/Scenes/`` in the Project Window to explore the sample scenes.
 
 ## Project Overview
 

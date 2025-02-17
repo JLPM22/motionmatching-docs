@@ -3,7 +3,7 @@
 !!! info
 	To access this sample, first open the Package Manager, select **Motion Matching**, and then import the examples by navigating to **Samples > Examples** and clicking **Import**.
 
-The sample can be located at `Examples/Scenes/JLTest/JLSceneThirdPerson.unity`. This sample showcases human locomotion animated using the Motion Matching system. It is designed to work with Unity's new action-based Input System and is compatible with both keyboard and Xbox controllers.
+The sample can be located at `Examples/Scenes/01_Advanced/ExampleThirdPerson.unity`. This sample showcases human locomotion animated using the Motion Matching system. It is designed to work with Unity's new action-based Input System and is compatible with both keyboard and Xbox controllers.
 
 ## Key Components
 

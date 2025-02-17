@@ -56,18 +56,24 @@ nav:
   - Home: index.md
   - Quick Start: quick_start.md
   - Basics:
+    - Using Simple Motion Matching Controller: basics/using_simple_motion_matching_controller.md
+    - Using Splines: basics/using_splines.md
     - Creating an Animation Database (MMData): basics/animation_database.md
     - Animating a Character: basics/character.md
     - Character Controller: basics/character_controller.md
-  - Functionality:
-    - Unity Animator Integration: functionality/unity_animator.md
-    - Tags: functionality/tags.md
-    - Custom Trajectory Features: functionality/custom_features.md
+  - Advanced:
+    - Unity Animator Integration: advanced/unity_animator.md
+    - Tags: advanced/tags.md
+    - Custom Trajectory Features: advanced/custom_features.md
   - Samples:
-    - Third Person: samples/third_person.md
-    - Path: samples/path.md
-    - Unity Animation Blending: samples/unity_animation.md
-    - Tags: samples/tags.md
+    - Basic:
+        - Simple Motion Matching Controller: samples/basic/simple_motion_matching_controller.md
+        - Splines: samples/basic/splines.md
+    - Advanced:
+        - Third Person: samples/advanced/third_person.md
+        - Path: samples/advanced/path.md
+        - Unity Animation Blending: samples/advanced/unity_animation.md
+        - Tags: samples/advanced/tags.md
   - Reference:
     - Under Construction: reference/todo.md
   - Roadmap: roadmap.md

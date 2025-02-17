@@ -3,7 +3,7 @@
 !!! info
 	To import this sample, navigate to the Package Manager, select **Motion Matching**, and then go to **Samples > Examples** and click on **Import**.
 
-You can find this sample at `Examples/Scenes/JLTest/JLSceneUnityAnimationIntegration.unity`. This sample serves as an extension of the [third person character controller](third_person.md) by integrating it with Unity's `Animator` component.
+You can find this sample at `Examples/Scenes/01_Advanced/ExampleUnityAnimationIntegration.unity`. This sample serves as an extension of the [third person character controller](third_person.md) by integrating it with Unity's `Animator` component.
 
 ## Key Changes
 
@@ -15,4 +15,4 @@ You can find this sample at `Examples/Scenes/JLTest/JLSceneUnityAnimationIntegra
 Press play to see how the `Animator` component animates the upper body of the character, while Motion Matching takes care of the lower body and locomotion. You can also remove the reference to the Avatar Mask to see how the system automatically blends into a full-body Motion Matching pose.
 
 !!! note
-	For a comprehensive understanding of how Unity's animation system and Motion Matching are integrated, please refer to [this section](../functionality/unity_animator.md).
+	For a comprehensive understanding of how Unity's animation system and Motion Matching are integrated, please refer to [this section](../../advanced/unity_animator.md).
