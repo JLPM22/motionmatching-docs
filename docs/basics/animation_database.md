@@ -27,9 +27,7 @@ Animation databases hold the animation sets that the Motion Matching system util
 
 ### Configure Skeleton
 
-- Identify the world space coordinates of the hips/root joint local forward and up vectors of your *.bvh* skeleton. You can use the `Auto-Set Hips Vectors` button to automatically set these vectors based on the orientation of the character. First, click this button, then you will be redirected to a scene with the skeleton in your T-Pose *.bvh* file. You can then rotate the character so its forward and up vectors align with the world space axes. Once you are satisfied with the orientation, click the `Set Hips Local Vectors` button to save the orientation.
-
-For example, in the following image, the character has been rotated to face the forward world axis. The final forward hips local vector is (0, 0, -1) and the up local vector is (0, 1, 0):
+- Identify the world space coordinates of the hips/root joint local forward and up vectors of your *.bvh* skeleton. You can use the `Auto-Set Hips Vectors` button to automatically set these vectors based on the orientation of the character. First, click this button, then you will be redirected to a scene with the skeleton in your T-Pose *.bvh* file. You can then rotate the character so its forward and up vectors align with the world space axes. Once you are satisfied with the orientation, click the `Set Hips Local Vectors` button to save the orientation. For example, in the following image, the character has been rotated to face the forward world axis. The final forward hips local vector is (0, 0, -1) and the up local vector is (0, 1, 0):
 
 	![](../assets/media/local_forward_hips.PNG)
 	
