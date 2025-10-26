@@ -11,9 +11,27 @@ Welcome to the **Motion Matching** implementation designed for the **Unity** gam
 
 ## Citation
 
-If you find this package beneficial, kindly attribute it to this repository or cite the author's master thesis using the following citation:
+If you find this package beneficial, please cite the SIGGRAPH Asia 2025 paper — it's the recommended citation. The master's thesis is kept below for background and extra details.
 
-```plaintext
+Preferred citation (recommended):
+
+```bibtex
+@article{2025:ponton:emm,
+  author = {Ponton, Jose Luis and Andrews, Sheldon and Andujar, Carlos and Pelechano, Nuria},
+  title = {Environment-aware Motion Matching},
+  year = {2025},
+  publisher = {Association for Computing Machinery},
+  booktitle = {SIGGRAPH Asia 2025},
+  address = {New York, NY, USA},
+  issn = {0730-0301},
+  doi = {10.1145/3763334},
+  journal = {ACM Trans. Graph.},
+}
+```
+
+Also for background:
+
+```bibtex
 @mastersthesis{ponton2022mm,
   author  = {Ponton, Jose Luis},
   title   = {Motion Matching for Character Animation and Virtual Reality Avatars in Unity},

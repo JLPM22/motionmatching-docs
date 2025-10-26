@@ -65,6 +65,8 @@ nav:
     - Unity Animator Integration: advanced/unity_animator.md
     - Tags: advanced/tags.md
     - Custom Trajectory Features: advanced/custom_features.md
+    - Environment Features: advanced/environment_features.md
+    - Custom Search: advanced/custom_search.md
   - Samples:
     - Basic:
         - Simple Motion Matching Controller: samples/basic/simple_motion_matching_controller.md

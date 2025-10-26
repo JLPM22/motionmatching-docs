@@ -38,7 +38,7 @@ The system supports complex boolean queries for tags, enabling a variety of oper
 To use boolean queries, utilize the `#!csharp class QueryTag`. Use `#!csharp bool QueryTag.Parse(string expression, out QueryTag query)` for parsing and `#!csharp SetExpression(QueryTag query)` to apply it in the `MotionMatchingController` component. For efficiency, consider parsing and caching the query tags at the beginning of your script.
 
 !!! example
-	See the [sample](../samples/tags.md) for an in-depth guide on querying tags.
+	See the [sample](../samples/advanced/tags.md) for an in-depth guide on querying tags.
 
 !!! tip
 	The `TagSwitchHelper` component simplifies using boolean queries. Add it to the same GameObject that contains the `CharacterController`. You can alter the query using `#!csharp SetExpression(string expression)` or disable it with `#!csharp DisableQuery()`. Feel free to manipulate the expression directly in the component inspector or through scripting.
